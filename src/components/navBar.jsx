@@ -68,7 +68,12 @@ class NavBar extends Component {
               to="home"
               smooth={true}
               duration={500}
-              className="py-4 text-sm border-b  border-white"
+              className="py-4 text-sm border-b  border-white "
+              onClick={
+                (this.setNavBar = () => {
+                  this.setState({ nav: !this.state.nav });
+                })
+              }
             >
               Home
             </Link>
@@ -77,6 +82,11 @@ class NavBar extends Component {
               smooth={true}
               duration={500}
               className=" text-sm border-b py-4  border-white"
+              onClick={
+                (this.setNavBar = () => {
+                  this.setState({ nav: !this.state.nav });
+                })
+              }
             >
               About
             </Link>
@@ -85,6 +95,11 @@ class NavBar extends Component {
               smooth={true}
               duration={500}
               className="text-sm border-b py-4  border-white"
+              onClick={
+                (this.setNavBar = () => {
+                  this.setState({ nav: !this.state.nav });
+                })
+              }
             >
               Project
             </Link>
@@ -93,6 +108,11 @@ class NavBar extends Component {
               smooth={true}
               duration={500}
               className="text-sm border-b py-4  border-white "
+              onClick={
+                (this.setNavBar = () => {
+                  this.setState({ nav: !this.state.nav });
+                })
+              }
             >
               Contact
             </Link>
