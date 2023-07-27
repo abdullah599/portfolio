@@ -11,9 +11,11 @@ class NavBar extends Component {
   };
   render() {
     return (
-      <div className="flex text-2xl text-[#242424] justify-between  bg-[rgb(241,240,240)] h-24 w-full  font-semibold mx-auto px-12 py-3">
-        <h1 className="p-4 ml-10 text-2xl sm:text-3xl ">Abdullah Shakeel</h1>
-        <ul className=" hidden md:flex">
+      <div className="flex text-2xl text-[#242424] justify-between  bg-[rgb(241,240,240)] h-24 w-full  font-semibold mx-auto  p-[1rem] md: ">
+        <h1 className="flex items-center md:p-4 md:ml-10 text-2xl sm:text-2xl ">
+          Abdullah Shakeel
+        </h1>
+        <ul className="hidden md:flex">
           <Link
             to="home"
             smooth={true}
@@ -61,12 +63,12 @@ class NavBar extends Component {
               : "fixed top-0 left-0 p-4 w-[60%] border-r border-r-gray-900 h-full bg-gray-600 text-white ease-in-out transition-all duration-500"
           }
         >
-          <ul className="pt-24">
+          <ul className=" flex flex-col  md:hidden pt-24 ">
             <Link
               to="home"
               smooth={true}
               duration={500}
-              className="p-5 text-xl border-b  border-white"
+              className="py-4 text-sm border-b  border-white"
             >
               Home
             </Link>
@@ -74,7 +76,7 @@ class NavBar extends Component {
               to="aboutme"
               smooth={true}
               duration={500}
-              className="p-5 text-xl border-b  border-white"
+              className=" text-sm border-b py-4  border-white"
             >
               About
             </Link>
@@ -82,7 +84,7 @@ class NavBar extends Component {
               to="project"
               smooth={true}
               duration={500}
-              className="p-5 text-xl border-b  border-white"
+              className="text-sm border-b py-4  border-white"
             >
               Project
             </Link>
@@ -90,7 +92,7 @@ class NavBar extends Component {
               to="contact"
               smooth={true}
               duration={500}
-              className="p-5 text-xl "
+              className="text-sm border-b py-4  border-white "
             >
               Contact
             </Link>

@@ -19,7 +19,7 @@ class SingleProject extends Component {
               <h1 className="text-2xl font-bold text-center font-sans uppercase lg:mt-10">
                 {this.props.heading}
               </h1>
-              <p className="text-justify text-gray-600 font-semibold text-xl font-sans my-4 w-full ">
+              <p className="text-justify text-gray-600 md:font-semibold text-xl font-sans my-4 w-full ">
                 {this.props.description}
               </p>
             </div>

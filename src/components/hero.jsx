@@ -37,10 +37,10 @@ class Hero extends Component {
           />
         </div>
         <div className="">
-          <h1 className="uppercase text-black font-bold  text-3xl md:text-6xl font-sans">
+          <h1 className="uppercase text-black font-bold  text-3xl md:text-6xl font-sans m-[2rem]">
             Hi, I'm Abdullah Shakeel
           </h1>
-          <p className="text-gray-600 font-semibold text-l md:text-xl m-5 font-sans ">
+          <p className="text-gray-600 font-semibold text-l md:text-xl m-[2rem] font-sans ">
             Passionate frontend developer that loves to build beautiful and
             performant web applications.
           </p>
