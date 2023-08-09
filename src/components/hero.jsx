@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import {  Element } from "react-scroll";
+import {Link,  Element } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
+
 class Hero extends Component {
   state = {};
   render() {
@@ -44,9 +45,14 @@ class Hero extends Component {
             Passionate frontend developer that loves to build beautiful and
             performant web applications.
           </p>
-          <button className="middle none center rounded-lg bg-violet-700 py-3 px-20 font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+          <Link
+            className="middle none center rounded-lg bg-violet-700 py-3 px-20 font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            to="project"
+            smooth={true}
+            duration={500}
+          >
             Projects
-          </button>
+          </Link>
         </div>
       </div>
     );

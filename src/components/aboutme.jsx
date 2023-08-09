@@ -40,9 +40,14 @@ class Aboutme extends Component {
               and grow. If you have a good opportunity that matches my skills
               and experience then don't hesitate to contact me.
             </p>
-            <button className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-1/2 sm:w-1/3 px-1">
+            <Link
+              className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-1/2 sm:w-1/3 px-1"
+              to="contact"
+              smooth={true}
+              duration={500}
+            >
               Contact
-            </button>
+            </Link>
           </div>
           <div className="my-12 lg:my-1 flex flex-col  w-full lg:w-1/2 text-left ">
             <h1 className="text-xl lg:text-3xl font-bold font-sans uppercase text-left lg:ml-[5rem]">

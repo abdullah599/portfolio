@@ -81,7 +81,7 @@ class Contact extends Component {
                     ></textarea>
                   </div>
                   <div>
-                    <button class="hover:shadow-form rounded-md bg-violet-700 py-3 px-8 text-base font-semibold text-white outline-none">
+                    <button type="submit" class="hover:shadow-form rounded-md bg-violet-700 py-3 px-8 text-base font-semibold text-white outline-none">
                       Submit
                     </button>
                   </div>

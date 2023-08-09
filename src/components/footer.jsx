@@ -41,7 +41,7 @@ class Footer extends Component {
                 href="#"
                 className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
               >
-                Projects Projects
+                Projects
               </Link>
             </li>
             <li>
