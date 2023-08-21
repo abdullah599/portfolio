@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Link,  Element } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
 
+
 class Hero extends Component {
   state = {};
   render() {
@@ -45,14 +46,23 @@ class Hero extends Component {
             Passionate frontend developer that loves to build beautiful and
             performant web applications.
           </p>
-          <Link
-            className="middle none center rounded-lg bg-violet-700 py-3 px-20 font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            to="project"
-            smooth={true}
-            duration={500}
-          >
-            Projects
-          </Link>
+          <div className="flex flex-wrap mx:auto justify-evenly ">
+            <a
+              href="../Assets/resume.pdf"
+              download="resume.pdf"
+              className="middle none center rounded-lg border-[3px] border-[color:var(--primary-color)]  py-3 px-15 font-sans text-l font-bold uppercase  text-[color:var(--primary-link-color)] shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px]"
+            >
+              Download CV
+            </a>
+            <Link
+              className="middle none center rounded-lg bg-violet-700 py-3 px-20 font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px]"
+              to="project"
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </div>
         </div>
       </div>
     );
