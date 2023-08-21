@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Link,  Element } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
+import resume from "../Assets/resume.pdf";
 
 
 class Hero extends Component {
@@ -48,7 +49,7 @@ class Hero extends Component {
           </p>
           <div className="flex flex-wrap mx:auto justify-evenly ">
             <a
-              href="../Assets/resume.pdf"
+              href={resume}
               download="resume.pdf"
               className="middle none center rounded-lg border-[3px] border-[color:var(--primary-color)]  py-3 px-15 font-sans text-l font-bold uppercase  text-[color:var(--primary-link-color)] shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px]"
             >
