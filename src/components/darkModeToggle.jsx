@@ -28,6 +28,7 @@ class DarkModeToggle extends Component {
                     type='checkbox'
                     id='darkmode-toggle'
                     onChange={this.toggleTheme}
+                    defaultChecked
                     
                 />
                 <label className='dark_mode_label' for='darkmode-toggle'>
