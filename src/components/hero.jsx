@@ -47,16 +47,16 @@ class Hero extends Component {
             Passionate frontend developer that loves to build beautiful and
             performant web applications.
           </p>
-          <div className="flex flex-wrap mx:auto justify-evenly ">
+          <div className="flex flex-col sm:flex-row   w-[100%] mx-auto sm:justify-evenly ">
             <a
               href={resume}
               download="resume.pdf"
-              className="middle none center rounded-lg border-[3px] border-[color:var(--primary-color)]  py-3 px-15 font-sans text-l font-bold uppercase  text-[color:var(--primary-link-color)] shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px]"
+              className="middle none center rounded-lg border-[3px] border-[color:var(--primary-color)]  py-3 px-15 font-sans text-l font-bold uppercase  text-[color:var(--primary-link-color)] shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px] mb-10 sm:mb-0 mx-auto"
             >
               Download CV
             </a>
             <Link
-              className="middle none center rounded-lg bg-violet-700 py-3 px-20 font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px]"
+              className="middle none center rounded-lg bg-violet-700 py-3 px-20 font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[250px] mx-auto"
               to="project"
               smooth={true}
               duration={500}
