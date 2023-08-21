@@ -5,19 +5,19 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div className="w-full">
-        <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      <div className="w-full bg-[color:var(--background-color-1)] ">
+        <footer className="p-4 bg-[color:var(--background-color-1)]  rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+          <span className="text-sm  sm:text-center  text-[color:var(--secondary-text-color)]">
             © 2023 Abdullah Shakeel . All Rights Reserved.
           </span>
-          <ul className="flex flex-wrap items-center mt-3 sm:mt-0">
+          <ul className="flex flex-wrap items-center mt-3 sm:mt-0  text-[color:var(--secondary-text-color)]">
             <li>
               <Link
                 to="home"
                 smooth={true}
                 duration={500}
                 href="#"
-                className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400 hover:cursor-pointer"
+                className="mr-4 text-sm  hover:underline md:mr-6  hover:cursor-pointer"
               >
                 Home
               </Link>
@@ -28,7 +28,7 @@ class Footer extends Component {
                 smooth={true}
                 duration={500}
                 href="#"
-                className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+                className="mr-4 text-smhover:underline md:mr-6 dark:text-gray-400"
               >
                 About
               </Link>
@@ -39,7 +39,7 @@ class Footer extends Component {
                 smooth={true}
                 duration={500}
                 href="#"
-                className="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400"
+                className="mr-4 text-sm hover:underline md:mr-6 dark:text-gray-400"
               >
                 Projects
               </Link>
@@ -50,7 +50,7 @@ class Footer extends Component {
                 smooth={true}
                 duration={500}
                 href="#"
-                className="text-sm text-gray-500 hover:underline dark:text-gray-400"
+                className="text-sm hover:underline dark:text-gray-400"
               >
                 Contact
               </Link>
