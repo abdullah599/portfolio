@@ -20,11 +20,8 @@ class Contact extends Component {
             <div class="flex items-center justify-center p-12">
               <div class="mx-auto w-full max-w-[550px]">
                 <form action="#  " method="POST">
-                  <div class="mb-5">
-                    <label
-                      for="name"
-                      class="mb-3 block text-base font-medium text-[#07074D]"
-                    >
+                  <div class="mb-5 text-[color:var(--primary-text-color)]">
+                    <label for="name" class="mb-3 block text-base font-medium ">
                       Full Name
                     </label>
                     <input
@@ -38,7 +35,7 @@ class Contact extends Component {
                   <div class="mb-5">
                     <label
                       for="email"
-                      class="mb-3 block text-base font-medium text-[#07074D]"
+                      class="mb-3 block text-base font-medium text-[color:var(--primary-text-color)]"
                     >
                       Email Address
                     </label>
@@ -53,7 +50,7 @@ class Contact extends Component {
                   <div class="mb-5">
                     <label
                       for="subject"
-                      class="mb-3 block text-base font-medium text-[#07074D]"
+                      class="mb-3 block text-base font-medium text-[color:var(--primary-text-color)]"
                     >
                       Subject
                     </label>
@@ -68,7 +65,7 @@ class Contact extends Component {
                   <div class="mb-5">
                     <label
                       for="message"
-                      class="mb-3 block text-base font-medium text-[#07074D]"
+                      class="mb-3 block text-base font-medium text-[color:var(--primary-text-color)]"
                     >
                       Message
                     </label>

@@ -8,7 +8,7 @@ class Hero extends Component {
   state = {};
   render() {
     return (
-      <div className=" flex  text-center text-gray-50 h-[40vh] w-full max-w-[900px] justify-center my-[15%] mx-auto  ">
+      <div className="h-fit  flex  text-center text-gray-50 h-[40vh] w-full max-w-[900px] justify-center my-[15%] mx-auto  ">
         <Element name="home" className="h-0"></Element>
         <div className="hidden lg:flex text-black   absolute top-1/3 left-0 h-[35%] bg-white w-[80px]  flex-col rounded-r-xl">
           <SocialIcon
@@ -39,7 +39,7 @@ class Hero extends Component {
             bgColor="#252525"
           />
         </div>
-        <div className="">
+        <div className="h-fit">
           <h1 className="uppercase  text-[color:var(--header-text-color)] font-bold  text-3xl md:text-6xl font-sans mx-auto">
             Hi, I'm Abdullah Shakeel
           </h1>
