@@ -5,7 +5,7 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div className="w-full bg-[color:var(--background-color-1)] ">
+      <div className="w-full bg-[color:var(--background-color-2)] ">
         <footer className="p-4 bg-[color:var(--background-color-1)]  rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
           <span className="text-sm  sm:text-center  text-[color:var(--secondary-text-color)]">
             © 2023 Abdullah Shakeel . All Rights Reserved.

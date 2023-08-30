@@ -6,6 +6,7 @@ class Project extends Component {
     projects: [
       {
         heading: "Battleship",
+        tech: "C++ | OOP | SFML",
         description: `Battleship is a strategy type guessing game for two players. It
                 is played on ruled grids on which each player's fleet of ships
                 are marked. The locations of the fleets are concealed from the
@@ -15,13 +16,22 @@ class Project extends Component {
         img: "Battleship.png",
       },
       {
-        heading: "Food Donation",
-        description: `Food Donarion website is intended to provide a platform for the people who want to donate food to the needy people. The website is developed using HTML, CSS, JavaScript, Bootstrap, PHP and MySQL. `,
-        img: "fooddonation.png",
+        heading: "E-Commerce Admin Panel",
+        tech: "HTML | CSS | JavaScript | TailwindCSS | ReactJS | PostgreSQL",
+        description: `This is a responsive admin panel for my ongoing E-commerce Full-stack website personal project. It is used to manage the products, categories, orders, and users of the website. Admin can add, update, and delete products, categories, orders, and users.`,
+        img: "admin.png",
       },
       {
+        heading: "Food Donation",
+        tech: "HTML | CSS | JavaScript | Bootstrap | PHP | PostgreSQL | Kotlin | Android Studio | Firebase",
+        description: `Food Donarion website is intended to provide a platform for the people who want to donate food to the needy people. The website is developed for the purpose of providing food to the needy people. It has three profiles: Donor, Receiver and Rider. The donor can donate food by filling a form. The receiver can request for food by filling a form. The rider can deliver the food to the receiver.`,
+        img: "fooddonation.png",
+      },
+
+      {
         heading: "BBC clone",
-        description: `This website is clone of BBC website. It is developed using HTML, CSS, and JavaScript.`,
+        tech: "HTML | CSS | JavaScript",
+        description: `This website is clone of BBC website frontend. It is developed using HTML, CSS, and JavaScript.`,
         img: "bbc.png",
       },
     ],
@@ -46,6 +56,7 @@ class Project extends Component {
               heading={project.heading}
               description={project.description}
               img={project.img}
+              tech={project.tech}
             />
           ))}
         </div>

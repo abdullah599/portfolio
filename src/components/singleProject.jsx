@@ -19,6 +19,9 @@ class SingleProject extends Component {
               <h1 className="text-2xl font-bold text-center font-sans uppercase lg:mt-10 text-[color:var(--primary-text-color)] ">
                 {this.props.heading}
               </h1>
+              <p className="text-center text-[color:var(--secondary-text-color)]  md:font-semibold text-sm font-sans my-4 w-full ">
+                {this.props.tech}
+              </p>
               <p className="text-justify text-[color:var(--secondary-text-color)]  md:font-semibold text-xl font-sans my-4 w-full ">
                 {this.props.description}
               </p>

@@ -44,7 +44,7 @@ class Hero extends Component {
             Hi, I'm Abdullah Shakeel
           </h1>
           <p className=" text-[color:var(--secondary-text-color)] font-semibold text-l md:text-xl m-[2rem] font-sans ">
-            Passionate frontend developer that loves to build beautiful and
+            Passionate Software Engineer that loves to build beautiful and
             performant web applications.
           </p>
           <div className="flex flex-col sm:flex-row   w-[100%] mx-auto sm:justify-evenly ">

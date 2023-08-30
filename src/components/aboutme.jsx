@@ -25,29 +25,31 @@ class Aboutme extends Component {
               Get to Know me!
             </h1>
             <p className=" text-[color:var(--secondary-text-color)]  text-xl font-sans  my-5 text-justify ">
-              I'm a <b>Frontend Web Developer</b> building the Front-end of
-              Websites and Web Applications that leads to the success of the
-              overall product. Check out some of my work in the Projects
-              section.
+              I'm a <b>Computer Science</b> student at National University of
+              Science and Technology. I love building the Front-end of Websites
+              and Web Applications that leads to the success of the overall
+              product. Check out some of my work in the Projects section.
             </p>
             <p className="text-[color:var(--secondary-text-color)]   text-xl font-sans  text-justify">
               Apart from front-end development, I enjoy spending my time doing{" "}
-              <b>Machine Learning</b>, Data Science, and Competitive Programming
-              . I also love to play video games and watch movies.
+              <b>Machine Learning</b>,{" "}
+              <b>Data Science, Competitive Programming</b>,and{" "}
+              <b> Mobile Development</b>. I also love to play video games and
+              watch movies.
             </p>
             <p className="text-[color:var(--secondary-text-color)]  text-xl font-sans  my-5 text-justify">
-              I'm <b>open to Job opportunities</b> where I can contribute, learn
-              and grow. If you have a good opportunity that matches my skills
-              and experience then don't hesitate to contact me.
+              I'm <b>open to Internship opportunities</b> where I can
+              contribute, learn and grow. If you have a good opportunity that
+              matches my skills and experience then don't hesitate to contact
+              me or to check my Github.
             </p>
-            <Link
+            <a
               className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-1/2 sm:w-1/3 px-1"
-              to="contact"
-              smooth={true}
-              duration={500}
+              href="https://github.com/abdullah599"
+              target="_blank"
             >
-              Contact
-            </Link>
+              GitHub
+            </a>
           </div>
           <div className="my-12 lg:my-1 flex flex-col  w-full lg:w-1/2 text-left ">
             <h1 className="text-xl lg:text-3xl font-bold font-sans uppercase text-left lg:ml-[5rem] text-[color:var(--primary-text-color)] ">
