@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Link,  Element } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
-import resume from "../Assets/resume.pdf";
+import resume from "../Assets/Abdullah_resume.pdf";
 
 
 class Hero extends Component {
