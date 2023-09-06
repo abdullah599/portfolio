@@ -90,14 +90,14 @@ class Contact extends Component {
             </div> */}
             <div className="flex flex-col md:flex-row justify-between  md:w-1/2 lg:w-1/2 xl:w-1/3 mx-auto">
               <a
-                className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-1/2 sm:w-1/3 lg:w-[250px] px-1 mx-auto my-10"
+                className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none  w-[100%] md:w-1/3 lg:w-[250px] px-1 mx-auto my-10"
                 href="https://www.linkedin.com/in/abdullah-shakeel-a77748224"
                 target="_blank"
               >
                 LinkedIn
               </a>
               <a
-                className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-1/2 sm:w-1/3 px-1 lg:w-[250px] mx-auto my-10"
+                className="middle none center rounded-lg bg-violet-700 py-4 text-center font-sans text-l font-bold uppercase text-white shadow-md shadow-violet-500/20 transition-all hover:shadow-lg hover:shadow-violet-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none w-[100%] md:w-1/3 px-1 lg:w-[250px] lg:ml-3 mx-auto my-10"
                 href="mailto:abdullahshakeel599@gmail.com"
                 target="_blank"
               >
